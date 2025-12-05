@@ -21,7 +21,7 @@ This project is designed for learning how to manage state, props, and UI interac
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/product-dynamic-card
+git clone https://github.com/al-tus/product-dynamic-card
 cd product-dynamic-card
 npm install
 npm run dev
