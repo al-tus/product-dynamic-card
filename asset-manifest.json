@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/al-tus.github.io/product-dynamic-card/static/css/main.0e135258.css",
+    "main.js": "/al-tus.github.io/product-dynamic-card/static/js/main.33560592.js",
+    "index.html": "/al-tus.github.io/product-dynamic-card/index.html",
+    "main.0e135258.css.map": "/al-tus.github.io/product-dynamic-card/static/css/main.0e135258.css.map",
+    "main.33560592.js.map": "/al-tus.github.io/product-dynamic-card/static/js/main.33560592.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e135258.css",
+    "static/js/main.33560592.js"
+  ]
+}
