@@ -1,0 +1,19 @@
+.benefits-list {
+    margin: 2em 0;
+}
+
+.benefits-list h3{
+    margin-bottom: 1em;
+}
+
+.benefits-list ul {
+    padding: 0;
+    font-size: 0.8em;
+    list-style: disc;
+    margin-left: 1em;
+}
+
+.benefits-list li {
+    text-indent: -0.6em;
+    margin-bottom: 0.5em;
+}
