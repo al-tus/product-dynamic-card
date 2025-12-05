@@ -1,2 +1,32 @@
-# product-dynamic-card
-A simple React project showcasing a dynamic product card component with interactive color selection, image switching, and product details. Built for learning React props, state management, and UI interaction patterns.
+# Product Dynamic Card
+
+A small React project featuring an interactive and dynamic product card component.  
+This project is designed for learning how to manage state, props, and UI interactions in React while building a clean and modern product display.
+
+## 🚀 Features
+
+- Dynamic image switching  
+- Color selection with real-time UI updates  
+- Product details and benefits section  
+- Responsive and clean design  
+- Simple and beginner-friendly structure
+
+## 🛠️ Technologies Used
+
+- React
+- JavaScript (ES6+)
+- CSS / Tailwind / Styled Components (choose your option)
+- Vite or Create React App
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/your-username/product-dynamic-card
+cd product-dynamic-card
+npm install
+npm run dev
+````
+
+## 🎯 Purpose
+
+This project serves as a simple educational example of how to create dynamic UI components in React based on user interactions.
