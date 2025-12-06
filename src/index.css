@@ -39,3 +39,6 @@ img {
     filter: drop-shadow(1px 1px 3px var(--secondary));
 }
 
+ol, ul {
+    list-style: none;
+}
