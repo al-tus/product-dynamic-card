@@ -10,7 +10,7 @@ import MainImg from "./components/MainImg";
 import React from "react";
 
 import greenSlice from './assets/img/green-apple-with-slice.png';
-import yellowSlice from './assets/img/yellow-apple-with-slice.png';
+import yellowSlice from ' ./assets/img/yellow-apple-with-slice.png';
 import orangeSlice from './assets/img/orange-apple-with-slice.png';
 import redSlice from './assets/img/red-apple-with-slice.png';
 import ThumbnailList from "./components/ThumbnailList";
