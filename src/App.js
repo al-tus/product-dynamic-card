@@ -9,13 +9,37 @@ import ColorSelector from "./components/ColorSelector";
 import MainImg from "./components/MainImg";
 import React from "react";
 
+// img
+
 import greenSlice from './assets/img/green-apple-with-slice.png';
-import yellowSlice from ' ./assets/img/yellow-apple-with-slice.png';
+import yellowSlice from './assets/img/yellow-apple-with-slice.png';
 import orangeSlice from './assets/img/orange-apple-with-slice.png';
 import redSlice from './assets/img/red-apple-with-slice.png';
+
+import greenA from './assets/img/green-apple-front.png'
+import greenB from './assets/img/green-apple-slice.png'
+import greenC from './assets/img/green-apple-top.png'
+import greenD from './assets/img/green-apple-flip.png'
+
+import yellowA from './assets/img/yellow-apple-front.png'
+import yellowB from './assets/img/yellow-apple-slice.png'
+import yellowC from './assets/img/yellow-apple-top.png'
+import yellowD from './assets/img/yellow-apple-flip.png'
+
+import orangeA from './assets/img/orange-apple-front.png'
+import orangeB from './assets/img/orange-apple-slice.png'
+import orangeC from './assets/img/orange-apple-top.png'
+import orangeD from './assets/img/orange-apple-flip.png'
+
+import redA from './assets/img/red-apple-front.png'
+import redB from './assets/img/red-apple-slice.png'
+import redC from './assets/img/red-apple-top.png'
+import redD from './assets/img/red-apple-flip.png'
+
+
+//
+
 import ThumbnailList from "./components/ThumbnailList";
-
-
 
 
 function App() {
@@ -25,21 +49,22 @@ function App() {
             url: 'https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png',
             mainImg: greenSlice,
             thumbImg: [
-                'https://fruitmasters.com/wp-content/uploads/2020/04/2020_Packshot_Granny_Smith_500x500px.png',
-                'https://static.vecteezy.com/system/resources/previews/060/359/668/non_2x/half-green-apple-cut-detail-juicy-white-flesh-seeds-stem-free-png.png',
-                'https://static.vecteezy.com/system/resources/previews/055/532/797/non_2x/freshly-cut-half-green-apple-with-a-leaf-isolated-on-a-clean-transparent-background-for-healthy-eating-visuals-fresh-half-green-apple-isolated-on-transparent-background-free-png.png',
-                'https://static.vecteezy.com/system/resources/previews/049/388/702/non_2x/green-apple-top-view-png.png'
+                greenA,          // ./assets/img/green-apple-front.png
+                greenB,          // ./assets/img/green-apple-slice.png
+                greenC,          // ./assets/img/green-apple-top.png
+                greenD           // ./assets/img/green-apple-flip.png
             ]
+
         },
         {
             name: 'yellow apple',
             url: 'https://res.cloudinary.com/john-mantas/image/upload/v1537302752/codepen/delicious-apples/yellow-apple.png',
             mainImg: yellowSlice,
             thumbImg: [
-                'https://fruitmasters.com/wp-content/uploads/2020/04/2020_Packshot_Granny_Smith_500x500px.png',
-                'https://static.vecteezy.com/system/resources/previews/060/359/668/non_2x/half-green-apple-cut-detail-juicy-white-flesh-seeds-stem-free-png.png',
-                'https://static.vecteezy.com/system/resources/previews/055/532/797/non_2x/freshly-cut-half-green-apple-with-a-leaf-isolated-on-a-clean-transparent-background-for-healthy-eating-visuals-fresh-half-green-apple-isolated-on-transparent-background-free-png.png',
-                'https://static.vecteezy.com/system/resources/previews/049/388/702/non_2x/green-apple-top-view-png.png'
+                yellowA,         // ./assets/img/yellow-apple-front.png
+                yellowB,         // ./assets/img/yellow-apple-slice.png
+                yellowC,         // ./assets/img/yellow-apple-top.png
+                yellowD          // ./assets/img/yellow-apple-flip.png
             ]
         },
         {
@@ -47,10 +72,10 @@ function App() {
             url: 'https://res.cloudinary.com/john-mantas/image/upload/v1537302427/codepen/delicious-apples/orange-apple.png',
             mainImg: orangeSlice,
             thumbImg: [
-                'https://fruitmasters.com/wp-content/uploads/2020/04/2020_Packshot_Granny_Smith_500x500px.png',
-                'https://static.vecteezy.com/system/resources/previews/060/359/668/non_2x/half-green-apple-cut-detail-juicy-white-flesh-seeds-stem-free-png.png',
-                'https://static.vecteezy.com/system/resources/previews/055/532/797/non_2x/freshly-cut-half-green-apple-with-a-leaf-isolated-on-a-clean-transparent-background-for-healthy-eating-visuals-fresh-half-green-apple-isolated-on-transparent-background-free-png.png',
-                'https://static.vecteezy.com/system/resources/previews/049/388/702/non_2x/green-apple-top-view-png.png'
+                orangeA,         // ./assets/img/orange-apple-front.png
+                orangeB,         // ./assets/img/orange-apple-slice.png
+                orangeC,         // ./assets/img/orange-apple-top.png
+                orangeD          // ./assets/img/orange-apple-flip.png
             ]
 
         },
@@ -59,10 +84,10 @@ function App() {
             url: 'https://res.cloudinary.com/john-mantas/image/upload/v1537302285/codepen/delicious-apples/red-apple.png',
             mainImg: redSlice,
             thumbImg: [
-                'https://fruitmasters.com/wp-content/uploads/2020/04/2020_Packshot_Granny_Smith_500x500px.png',
-                'https://static.vecteezy.com/system/resources/previews/060/359/668/non_2x/half-green-apple-cut-detail-juicy-white-flesh-seeds-stem-free-png.png',
-                'https://static.vecteezy.com/system/resources/previews/055/532/797/non_2x/freshly-cut-half-green-apple-with-a-leaf-isolated-on-a-clean-transparent-background-for-healthy-eating-visuals-fresh-half-green-apple-isolated-on-transparent-background-free-png.png',
-                'https://static.vecteezy.com/system/resources/previews/049/388/702/non_2x/green-apple-top-view-png.png'
+                redA,            // ./assets/img/red-apple-front.png
+                redB,            // ./assets/img/red-apple-slice.png
+                redC,            // ./assets/img/red-apple-top.png
+                redD             // ./assets/img/red-apple-flip.png
             ]
         }
     ];
