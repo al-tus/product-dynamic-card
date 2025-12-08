@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/product-dynamic-card/static/css/main.de600808.css",
+    "main.js": "/product-dynamic-card/static/js/main.4713208e.js",
+    "static/media/red-apple-with-slice.png": "/product-dynamic-card/static/media/red-apple-with-slice.3ea47db65f1f3658bc46.png",
+    "static/media/orange-apple-with-slice.png": "/product-dynamic-card/static/media/orange-apple-with-slice.ce0cc67ae4fb9dddb553.png",
+    "static/media/yellow-apple-with-slice.png": "/product-dynamic-card/static/media/yellow-apple-with-slice.4abf3c05e141d772bfe1.png",
+    "static/media/green-apple-with-slice.png": "/product-dynamic-card/static/media/green-apple-with-slice.a48558d1b967ae8fe8b1.png",
+    "static/media/red-apple-front.png": "/product-dynamic-card/static/media/red-apple-front.62329564ebbdcf39d427.png",
+    "static/media/orange-apple-front.png": "/product-dynamic-card/static/media/orange-apple-front.d6830470b3f260b61d1f.png",
+    "static/media/red-apple-top.png": "/product-dynamic-card/static/media/red-apple-top.1937a0c1bba6dec5ffc7.png",
+    "static/media/green-apple-top.png": "/product-dynamic-card/static/media/green-apple-top.849b3826ccff0ed6719e.png",
+    "static/media/orange-apple-flip.png": "/product-dynamic-card/static/media/orange-apple-flip.0c0758945c588e6ce3d3.png",
+    "static/media/green-apple-front.png": "/product-dynamic-card/static/media/green-apple-front.4e84af0ef152ac5f0013.png",
+    "static/media/yellow-apple-flip.png": "/product-dynamic-card/static/media/yellow-apple-flip.4c1aaa4b581f6f1387b8.png",
+    "static/media/orange-apple-top.png": "/product-dynamic-card/static/media/orange-apple-top.a70a204a17a27a253844.png",
+    "static/media/green-apple-flip.png": "/product-dynamic-card/static/media/green-apple-flip.2e21a68c18c05e115368.png",
+    "static/media/red-apple-flip.png": "/product-dynamic-card/static/media/red-apple-flip.520b544fb23c4917f9bf.png",
+    "static/media/green-apple-slice.png": "/product-dynamic-card/static/media/green-apple-slice.efbbd7349ca1d15f48e6.png",
+    "static/media/red-apple-slice.png": "/product-dynamic-card/static/media/red-apple-slice.111a13f2517ae918aa60.png",
+    "static/media/yellow-apple-front.png": "/product-dynamic-card/static/media/yellow-apple-front.f818e878e05d3574a690.png",
+    "static/media/yellow-apple-top.png": "/product-dynamic-card/static/media/yellow-apple-top.a78eaad6a0e583362bda.png",
+    "static/media/yellow-apple-slice.png": "/product-dynamic-card/static/media/yellow-apple-slice.0f9ad94d85968de87867.png",
+    "static/media/orange-apple-slice.png": "/product-dynamic-card/static/media/orange-apple-slice.a928a43c162df5c8a59a.png",
+    "index.html": "/product-dynamic-card/index.html",
+    "main.de600808.css.map": "/product-dynamic-card/static/css/main.de600808.css.map",
+    "main.4713208e.js.map": "/product-dynamic-card/static/js/main.4713208e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de600808.css",
+    "static/js/main.4713208e.js"
+  ]
+}
