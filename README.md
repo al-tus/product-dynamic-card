@@ -18,6 +18,9 @@ This project is designed for learning how to manage state, props, and UI interac
 - CSS / Tailwind / Styled Components (choose your option)
 - Vite or Create React App
 
+## Run in Browes
+* [GitHub Pages](https://al-tus.github.io/product-dynamic-card/)
+
 ## 📦 Installation
 
 ```bash
