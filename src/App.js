@@ -7,6 +7,8 @@ import BenefitsList from "./components/BenefitsList";
 import Button from "./components/Button";
 import ColorSelector from "./components/ColorSelector";
 import MainImg from "./components/MainImg";
+import CardBox from "./components/CardBox";
+
 import React from "react";
 
 // img
@@ -40,6 +42,7 @@ import redD from './assets/img/red-apple-flip.png'
 //
 
 import ThumbnailList from "./components/ThumbnailList";
+import OverlayActions from "./components/OverlayActions";
 
 
 function App() {
@@ -101,7 +104,14 @@ function App() {
 
     const [isColorActive, setColorActive] = React.useState(0);
     const [isThumbnailActive, setThumbnail] = React.useState(undefined);
-    const orderCode = Math.floor(Math.random() * (10000 - 99999 + 1)) + 99999
+    const [isCardOpen, setCardOpen] = React.useState(false);
+    const [isFavorite, setFavorite] = React.useState(false);
+    const [count, setCount] = React.useState(0);
+
+    const orderCodeRef = React.useRef(
+        Math.floor(Math.random() * (10000 - 99999 + 1)) + 99999
+    )
+    const orderCode = orderCodeRef.current
 
     const handlerClickColor = (index) => {
         setColorActive(index);
@@ -114,10 +124,42 @@ function App() {
         setThumbnail(undefined)
     }
 
+    const handlerCardAdderClick = () => {
+        setCardOpen(true);
+        setCount(count + 1);
+    }
+
+    const handlerPlusClick = () => {
+        if (count >= 99) return
+        setCount(count + 1)
+    }
+
+    const handlerMinusClick = () => {
+        setCount(count - 1)
+        if(count - 1 === 0) {
+            setCardOpen(false)
+        }
+    }
+
+    const handlerFavoriteClick = () => {
+        setFavorite(!isFavorite)
+    }
+
+    const handlerShare = async () => {
+        const product = productsInfo[isColorActive]
+        const shareData = {
+            title: product.name,
+            text: `Look at this: ${product.name}`,
+            url: window.location.href,
+        };
+        await navigator.share(shareData);
+    }
+
     return (
    <>
        <ProductCard>
            <ProductGallery>
+               <OverlayActions onClick={handlerFavoriteClick} isFavorite={isFavorite} onShare={handlerShare}/>
                <MainImg active={isColorActive} info={productsInfo} thumbnailImg={isThumbnailActive}/>
                <ThumbnailList
                    images={productsInfo[isColorActive].thumbImg}
@@ -130,9 +172,11 @@ function App() {
                 <PriceDisplay />
                 <ColorSelector info={productsInfo} onClick={handlerClickColor} className={isColorActive}/>
                 <BenefitsList benefits={productBenefits} />
-                <Button />
+                <Button onClick={handlerCardAdderClick} count={count} onMinus={handlerMinusClick} onPlus={handlerPlusClick}/>
            </ProductDetails>
        </ProductCard>
+
+       <CardBox isCardOpen={isCardOpen} count={count}/>
    </>
   );
 }

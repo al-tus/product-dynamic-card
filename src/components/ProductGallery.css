@@ -13,3 +13,16 @@
     border-radius: 6px;
     box-shadow: 4px 4px 25px -2px rgba(0, 0, 0, 0.3);
 }
+
+@media (max-width: 431px){
+    .product-gallery {
+        aspect-ratio: 1/1;
+    }
+    .photo-container{
+        display: grid;
+        left: 0;
+        bottom: 0;
+            border-radius: 6px 6px 0 0;
+        box-shadow: none;
+    }
+}

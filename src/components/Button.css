@@ -10,3 +10,34 @@
     box-shadow: 2px 2px 25px -7px #4c4c4c;
     cursor: pointer;
 }
+
+.card-counter{
+    display: flex;
+    align-items: stretch;
+    overflow: hidden;
+    border-radius: 7px;
+    width: fit-content;
+}
+
+.card-counter span{
+    display: flex;
+    align-items: center;
+    border: solid var(--highlight);
+    border-width: 2px 0 2px 0;
+    padding: 0   30px;
+    background-color: #fff;
+    font-size: 20px;
+}
+
+.plus, .minus {
+    padding: 1.5em 2.1em;
+    border: none;
+    font-size: 0.8em;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+    color: #fff;
+    background-color: #ff3f40;
+    box-shadow: 2px 2px 25px -7px #4c4c4c;
+    cursor: pointer;
+}
+

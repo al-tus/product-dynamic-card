@@ -5,3 +5,13 @@
     width: 85%;
     filter: drop-shadow(1px 20px 10px rgba(0, 0, 0, 0.3));
 }
+
+@media (max-width: 431px) {
+    .photo-container > img {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -4.5em;
+        width: 85%;
+    }
+}

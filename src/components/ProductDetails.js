@@ -1,3 +1,5 @@
+import './ProductDetails.css'
+
 const ProductDetails = ({children}) => {
     return <div className="product-details">{children}</div>;
 }

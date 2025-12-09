@@ -1,0 +1,9 @@
+.product-details {
+    position: relative;
+}
+
+@media (max-width: 431px){
+    .product-details {
+        padding: 18px;
+    }
+}

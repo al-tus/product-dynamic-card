@@ -31,3 +31,18 @@
     border: 1px solid #a6a6a6;
     border-radius: 3px;
 }
+
+@media (max-width: 431px) {
+    .thumbnail-list{
+        border-radius: 0 ;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .thumbnail-list ul{
+        margin: 0;
+    }
+    .thumbnail-list ul li {
+        width: 70px;
+        height: 70px;
+    }
+}
