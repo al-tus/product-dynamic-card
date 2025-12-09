@@ -27,7 +27,7 @@ This project is designed for learning how to manage state, props, and UI interac
 git clone https://github.com/al-tus/product-dynamic-card
 cd product-dynamic-card
 npm install
-npm run dev
+npm srart
 ````
 
 ## 🎯 Purpose
