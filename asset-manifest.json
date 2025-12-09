@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/product-dynamic-card/static/css/main.9a811de1.css",
-    "main.js": "/product-dynamic-card/static/js/main.654285f3.js",
+    "main.js": "/product-dynamic-card/static/js/main.7ff29e83.js",
     "static/media/red-apple-with-slice.png": "/product-dynamic-card/static/media/red-apple-with-slice.3ea47db65f1f3658bc46.png",
     "static/media/orange-apple-with-slice.png": "/product-dynamic-card/static/media/orange-apple-with-slice.ce0cc67ae4fb9dddb553.png",
     "static/media/yellow-apple-with-slice.png": "/product-dynamic-card/static/media/yellow-apple-with-slice.4abf3c05e141d772bfe1.png",
@@ -24,10 +24,10 @@
     "static/media/orange-apple-slice.png": "/product-dynamic-card/static/media/orange-apple-slice.a928a43c162df5c8a59a.png",
     "index.html": "/product-dynamic-card/index.html",
     "main.9a811de1.css.map": "/product-dynamic-card/static/css/main.9a811de1.css.map",
-    "main.654285f3.js.map": "/product-dynamic-card/static/js/main.654285f3.js.map"
+    "main.7ff29e83.js.map": "/product-dynamic-card/static/js/main.7ff29e83.js.map"
   },
   "entrypoints": [
     "static/css/main.9a811de1.css",
-    "static/js/main.654285f3.js"
+    "static/js/main.7ff29e83.js"
   ]
 }
